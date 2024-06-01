@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Results summary component</title>
   <link rel="stylesheet" href="index.css">
@@ -14,35 +15,21 @@
   <main class="main">
     <div class="container">
       <div class="your-result">
-        <h1>Your Result</h1>
-        <div>
-          <span>76</span>
-          <span>of 100</span>
+        <h3 class="gray">Your Result</h3>
+        <div class="circle">
+          <span class="score">76</span>
+          <span class="gray">of 100</span>
         </div>
+        <h2>Greate</h2>
+        <p class="gray">You scored higher than 65% of the people who have taken these tests.</p>
       </div>
-      <h1>Greate</h1>
-      <p>Your scored higher than 65% of the people who have taken these tests.</p>
-      <div class="summary">
-        <h1>Summary</h1>
-        <div class="items">
-          <p></p>
-          <p></p>
+      <div class="summary" id="summary">
+        <div class="summary-title">
+          <h3 class="dark-dray">Summary</h3>
         </div>
-        <div class="items">
-          <p></p>
-          <p></p>
-        </div>
-        <div class="items">
-          <p></p>
-          <p></p>
-        </div>
-        <div class="items">
-          <p></p>
-          <p></p>
-        </div>
-        <a href=""></a>
       </div>
     </div>
   </main>
+  <script src="index.js"></script>
 </body>
 </html>
