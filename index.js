@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 elements += 
                 `
                 <div class="items item${index + 1}">
-                <div class="first ${item.category}"><img src="${item.icon}" alt=""></div>
-                <div class="second">
-                  <p class="dark-dray">${item.score}</p>
-                  <span class="gray"> / 100</span>
+                  <div class="first ${item.category}"><img src="${item.icon}" alt="">${item.category}</div>
+                  <div class="second">
+                    <p class="dark-dray">${item.score}</p>
+                    <span class="gray"> / 100</span>
+                  </div>
                 </div>
-              </div>
                 `
             }
             summary.innerHTML += elements
